@@ -1,0 +1,122 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica';
+}
+:is(header, ul, #row-2, #row-1, main, .two) {
+  display: flex;
+}
+.responsive__nav--btn {
+  display: none;
+}
+header {
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+:any-link {
+  text-decoration: unset;
+  color: unset;
+}
+:any-link:hover {
+  text-decoration: 2px underline;
+  text-underline-offset: 2px;
+}
+ul {
+  justify-content: end;
+  list-style: none;
+  gap: 50px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #636060;
+}
+nav {
+  margin-right: 78px;
+  padding: 30px 0;
+}
+picture img {
+  width: 100%;
+  height: 600px;
+}
+picture div {
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  transform: translateX(50%);
+  white-space: nowrap;
+  color: white;
+  text-align: center;
+}
+picture div h1 {
+  font-weight: 700;
+  font-size: 79px;
+}
+picture div p {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+main {
+  padding: 0 100px 140px 60px;
+  gap: 80px;
+}
+.two {
+  flex-direction: column;
+  gap: 56px;
+}
+
+#row-2,
+#row-1 {
+  gap: 33px;
+}
+.article {
+  width: 286px;
+}
+.article h6 {
+  font-size: 19px;
+  color: #343232;
+  font-weight: 400;
+  padding-bottom: 9px;
+  padding-top: 23px;
+}
+.article p {
+  font-size: 18px;
+  color:  #636060;
+  font-weight: 400;
+}
+
+.one h3 {
+  color: #636060;
+  font-size: 17px;
+  margin-bottom: 9px;
+}
+.one h2 {
+  color: #010101;
+  font-weight: 400;
+  font-size: 28px;
+  white-space: nowrap;
+  margin-bottom: 37px;
+}
+.one h5 {
+  color: #636060;
+  font-size: 20px;
+  font-weight: 400;
+  width: 110%; 
+}
+.responsive__nav--btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40px;
+  height: 30px;
+  margin-inline: auto;
+  cursor: pointer;
+}
+.responsive__nav--btn span {
+  width: 100%;
+  background-color:#343232;
+  border: 1px solid #343232;
+  border-radius: 15px;
+  height: 7px;
+}
