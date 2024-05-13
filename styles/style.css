@@ -105,7 +105,7 @@ main {
   width: 110%; 
 }
 .responsive__nav--btn {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-between;
   width: 40px;
